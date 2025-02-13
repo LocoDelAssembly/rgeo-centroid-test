@@ -1,0 +1,17 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rgeo (3.0.1)
+    rgeo-proj4 (4.0.0)
+      rgeo (~> 3.0.0)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  rgeo
+  rgeo-proj4
+
+BUNDLED WITH
+   2.5.23
