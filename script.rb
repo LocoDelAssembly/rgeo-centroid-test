@@ -7,6 +7,8 @@ polygon = factory.polygon(factory.linear_ring([[0,0], [10,0], [10,10], [0,10], [
 expected_centroid = factory.point(5, 5)
 
 puts polygon.inspect
+puts "PROJECTED CENTROID: #{polygon.projection.centroid}"
+puts "UNPROJECTED CENTROID: #{factory.unproject(polygon.projection.centroid)}"
 puts "EXPECTED CENTROID: #{expected_centroid}"
 puts "ACTUAL CENTROID: #{polygon.centroid}"
 
